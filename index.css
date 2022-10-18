@@ -1,0 +1,399 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(./Pic03.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+#main #main1
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.589);
+}
+#main #main1 #nav
+{
+    width: 100%;
+    height: 100px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Gilroy";
+    color: white;
+}
+#main1 #nav #left
+
+{
+    margin-left: 25px;
+    cursor: pointer;
+}
+#main1 #nav #center
+
+{
+    display: flex;
+    cursor: pointer;
+    
+}
+#main1 #nav #center h5{
+    margin-left: 25px;
+}
+#main1 #nav #right
+{
+    display: flex;
+    margin-right: 15px;
+    cursor: pointer;
+}
+#main1 #nav #right h5{
+    margin-left: 10px;
+}
+#main1 #nav #left:hover
+
+{
+    color: black;
+}
+#main1 #nav #center h5:hover
+
+{
+    color: black;
+}
+#main1 #nav #right i:hover
+
+{
+    color: black;
+}
+#main1 #nav #right h5:hover
+
+{
+    color: black;
+}
+
+#main1 #centerdiv
+{
+    width: 50%;
+    height: 35%;
+    /* background-color: black; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+}
+#main1 #centerdiv #top
+{
+    display: flex;
+    color: white;
+    align-items: center;
+    font-family: 'Gilroy';
+}
+#main1 #centerdiv #top hr{
+    width: 10%;
+    height: 5%;
+    margin-right: 10px;
+}
+#main1 #centerdiv #top h5{
+    color: burlywood;
+    letter-spacing: 3px;
+}
+#main1 #centerdiv h1{
+    color: white;
+    font-family: "Ogg";
+    font-size: 60px;
+    font-weight: 500;
+}
+#main1 #centerdiv #down{
+    display: flex;
+    color: white;
+    font-family: "Gilroy";
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 20px;
+}
+#main #main2
+{
+    width: 100%;
+    height: 220%;
+    background-color: #0b1d27;
+}
+#main2 #top
+{
+    width: 100%;
+    height: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#main2 #center
+{
+    width: 100%;
+    height: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+#main2 #bottom
+{
+    width: 100%;
+    height: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+#main2 #top #left
+{
+    width: 28%;
+  height: 50%;
+    /* background-color: #0b1d27; */
+    margin-left: 300px;
+    color: white;
+    font-family: "Gilroy";
+    margin-top: -30px;
+}
+#main2 #center #right
+{
+    width: 28%;
+    height: 50%;
+      /* background-color: #0b1d27; */
+      margin-right: 300px;
+      color: white;
+      font-family: "Gilroy";
+      margin-top: -30px;
+}
+#main2 #bottom #left
+{
+    width: 28%;
+    height: 50%;
+      /* background-color: #0b1d27; */
+      margin-left: 300px;
+      color: white;
+      font-family: "Gilroy";
+      margin-top: -30px;
+}
+#main2 #top #left #left1
+{
+    display: flex;
+}
+#main2 #bottom #left #left1
+
+
+{
+    display: flex;
+}
+#main2 #center #right #left1
+{
+    display: flex;
+}
+#main2 #top #left p{
+    font-size: 12px;
+    font-weight: 100;
+    opacity: .5;
+    margin-top: 3px;
+}
+#main2 #bottom #left p{
+    font-size: 12px;
+    font-weight: 100;
+    opacity: .5;
+    margin-top: 3px;
+}
+#main2 #center #right p{
+    font-size: 12px;
+    font-weight: 100;
+    opacity: .5;
+    margin-top: 3px;
+    
+}
+#main2 #top #left #down
+{
+    font-size: 13px;
+    margin-top: 10px;
+    color: burlywood;
+}
+#main2 #bottom #left #down
+{
+    font-size: 13px;
+    margin-top: 10px;
+    color: burlywood;
+}
+#main2 #center #right #down
+{
+    font-size: 13px;
+    margin-top: 10px;
+    color: burlywood;
+}
+#main2 #top #left #num h1{
+font-size: 80px;
+
+opacity: .5;
+}
+#main2 #bottom #left #num h1{
+    font-size: 80px;
+    
+    opacity: .5;
+    }
+
+#main2 #center #right #num h1{
+    font-size: 80px;
+
+opacity: .5;
+}
+#main2 #top #left hr{
+    width: 10%;
+    height: 5%;
+    margin-right: 10px;
+}
+#main2 #bottom #left hr{
+    width: 10%;
+    height: 5%;
+    margin-right: 10px;
+}
+#main2 #center #right hr{
+    width: 10%;
+    height: 5%;
+    margin-right: 10px;
+}
+#main2 #top #right img
+{
+width: 220px;
+margin-right: 300px;
+}
+#main2 #bottom #right img
+{
+width: 200px;
+margin-right: 300px;
+}
+#main2 #center #left img
+{
+width: 250px;
+margin-left: 300px;
+}
+#main2 #top #left #left1 
+{
+    font-family: "Gilroy";
+    color: burlywood;
+    
+    align-items: center;
+    letter-spacing: 2px;
+}
+#main2 #bottom #left #left1 
+{
+    font-family: "Gilroy";
+    color: burlywood;
+    
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+#main2 #center #right #left1
+{
+    font-family: "Gilroy";
+    color: burlywood;
+    letter-spacing: 2px;
+    align-items: center;
+}
+#main2 #top #left  #down
+{
+    display: flex;
+    align-items: center;
+}
+#main2 #bottom #left  #down
+{
+    display: flex;
+    align-items: center;
+}
+
+#main2 #center #right #down
+{
+    display: flex;
+    align-items: center;
+}
+#main #main3
+{
+    width: 100%;
+    height: 60%;
+    background-color: #0b1d27;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#main #main3 #left
+{
+    color: white;
+    margin-left: 100px;
+    font-family: "Gilroy";
+    
+}
+#main3 #left h1
+
+{
+    color: burlywood;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+#main3 #left p
+
+{
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 600;
+   
+}
+#main3 #left h5
+
+{
+    font-size: 10px;
+    opacity: .5;
+}
+#main3 #center 
+{
+    color:white;
+    font-family: "Gilroy";
+    margin-top: 50px;
+}
+#main3 #center h2{
+    color: burlywood;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#main3 #center h5{
+    line-height: 25px;
+    font-size: 12px;
+    opacity: .5;
+    font-weight: 500;
+}
+#main3 #right
+{
+    margin-right: 90px;
+    color: white;
+    font-family: "Gilroy";
+}
+#main3 #right h2{
+    color: burlywood;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#main3 #right h5{
+    line-height: 25px;
+    font-size: 12px;
+    opacity: .5;
+    font-weight: 500;
+}
